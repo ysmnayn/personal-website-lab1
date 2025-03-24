@@ -1,0 +1,278 @@
+body {
+    font-family: Tahoma, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    font-family: Tahoma, serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    background: #9a7b78;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.page-title {
+    color:#f4f4f4;
+    font-size:15px;
+    text-align: center;
+    padding: 1px;
+    background:#9a7b78;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fffaf0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+th {
+    background-color: #8d6e63;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #fbe9e7;
+}
+
+tr:hover {
+    background-color: #f3e3d3; 
+    transition: 0.3s;
+}
+
+th, td {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
+
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.sections-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hobby-item {
+    width: 200px; 
+    text-align: center;
+}
+
+
+.button {
+    display: inline-block;
+    background: #9a7b78;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #8a6b68;
+}
+
+.paragraph-1 {
+    text-align: justify; 
+    flex: 1; 
+    margin-right: 20px; 
+    border: 3px solid #4e2d2a;  
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(52, 25, 1, 0.138);
+    padding: 10px; 
+    min-height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-2 {
+    text-align:center; 
+    flex: 1; 
+    margin-right: 20px;
+    border: 3px solid #4e2d2a;  
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(52, 25, 1, 0.138); 
+    padding: 10px; 
+    min-height: 150px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+
+.skill-box {
+    background: #fbe9e7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-box h3 {
+    color: #5d4037;
+}
+
+.skill-box p {
+    font-size: 16px;
+}
+
+
+/* Contact Page Styles */
+.contact-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fffaf0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #5d4037;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #8d6e63;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #8d6e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #5d4037;
+}
+
+/* Social Media Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #8d6e63;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #5d4037;
+}
