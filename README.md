@@ -1,2 +1,2 @@
-# personal-website-lab1
-# personal-website-lab1
+  This is my first project on html ദ്ദി(˵ •̀ ᴗ - ˵ ) !
+
