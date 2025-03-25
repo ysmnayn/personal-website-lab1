@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 table {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-collapse: collapse;
     background-color: #fffaf0;
@@ -83,9 +83,16 @@ th, td {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+    }
     table {
-        width: 100%;
+        font-size: 14px; 
+    }
+
+    th, td {
+        padding: 8px; 
     }
 }
 
